@@ -63,7 +63,10 @@
         line-height: 48px
 
     .top
-        padding-top: 40px
+        padding-top: 110px
+        background-position: center bottom
+        &__titles
+            max-width: 330px
         &-img
             margin-right: -80px
         &-img img
@@ -258,12 +261,13 @@
         line-height: 18px
 
     .top
+        padding-top: 40px
         background-image: none
-
     .top__titles
         max-width: 420px
 
     .top__subtitle
+        max-width: 250px
         margin-bottom: 12px
 
     .top-img
@@ -489,6 +493,7 @@
         line-height: 45px
         color: #333
     .top__subtitle
+        max-width: 100%
         font-weight: 400
         margin-bottom: 10px
         font-size: 17px
@@ -514,6 +519,9 @@
         justify-content: center
         align-items: center
 
+    .timer__item::before
+        -webkit-text-fill-color: #333
+        
     .promotion:not(.promotion-bottom)
         margin: 10px 0 30px
         .promotion__inner

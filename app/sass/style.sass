@@ -56,12 +56,15 @@
         width: 100%
         margin-bottom: 20px
     &__title
-        color: #898989
+        color: #333
         text-transform: uppercase
+        font-weight: 700
     &__subtitle
         color: #100101
-        margin-bottom: 26px
-
+        margin-bottom: 10px
+        font-weight: 700
+        max-width: 320px
+        width: 100%
     &-list
         display: grid
         grid-gap: 12px
@@ -92,7 +95,7 @@
         font-weight: 600
 
 .promotion:not(.promotion-bottom)
-    margin: 40px 0 60px
+    margin: 40px 0 90px
 .promotion:not(.promotion-bottom) .promotion__inner
     border-radius: 10px
     background: linear-gradient(180deg, #400251 -26.84%, rgba(229, 1, 255, 0.00) 124.34%)
@@ -377,7 +380,7 @@
         display: flex
         align-items: center
         justify-content: space-between
-        grid-gap: 86px
+        grid-gap: 10px
     &__content
         max-width: 540px
         width: 100%
@@ -393,7 +396,6 @@
         p:not(:last-child)
             margin-bottom: 15px
     &__img
-        margin-left: -220px
         width: 603px
 
 .benefits
